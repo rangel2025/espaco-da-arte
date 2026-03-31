@@ -42,16 +42,13 @@ function HeroSection() {
               Tradição &amp; Afeto · Americana/SP
             </span>
 
-            {/* Logotipo Manuscrito */}
-            <div className="relative w-80 xl:w-[400px] h-32 md:h-40 -ml-4">
-              <Image 
-                src="/images/logo-handwritten.jpg" 
-                alt="Espaço da Arte" 
-                fill 
-                className="object-contain mix-blend-multiply" 
-                priority
-              />
-            </div>
+            {/* Título grande */}
+            <h1
+              className="font-headline text-7xl xl:text-8xl font-bold italic leading-[1.0]"
+              style={{ color: "var(--color-primary)" }}
+            >
+              Espaço<br />da Arte
+            </h1>
 
             {/* Subtítulo */}
             <p
@@ -108,8 +105,8 @@ function HeroSection() {
               }}
             >
               <Image
-                src="/images/artista_01.png"
-                alt="Professora e artista no ateliê"
+                src="/images/aluna1.png"
+                alt="Aluna e professora no ateliê Espaço da Arte"
                 fill
                 className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
                 priority
@@ -152,22 +149,22 @@ function HeroSection() {
 
             {/* Card flutuante — Arte Terapia */}
             <div
-              className="absolute -bottom-12 -left-16 z-20 hidden lg:block"
+              className="absolute -bottom-10 -left-10 hidden lg:block"
               style={{
                 background: "var(--color-surface-container-lowest)",
                 borderRadius: "2.5rem",
                 padding: "1.5rem",
-                boxShadow: "0 40px 80px rgba(138,72,83,0.18)",
-                width: "240px",
+                boxShadow: "0 30px 60px rgba(138,72,83,0.12)",
+                width: "220px",
                 animation: "drift 10s ease-in-out infinite reverse",
               }}
             >
-              <div className="relative h-32 rounded-3xl overflow-hidden mb-4 border border-white/20">
+              <div className="relative h-32 rounded-3xl overflow-hidden mb-4">
                 <Image
-                  src="/images/turma-nova.jpg"
-                  alt="Turma de alunos no ateliê"
+                  src="/images/artista_01.png"
+                  alt="Artista trabalhando"
                   fill
-                  className="object-cover transition-transform duration-500 hover:scale-110"
+                  className="object-cover"
                   sizes="220px"
                 />
               </div>
