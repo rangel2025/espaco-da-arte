@@ -375,8 +375,8 @@ function AboutSection() {
             </div>
             <div className="relative rounded-[3rem] overflow-hidden shadow-2xl" style={{ height: "380px", marginTop: "-3rem" }}>
               <Image
-                src="/images/artista_02.png"
-                alt="Artista criando"
+                src="/images/sobre_boards.jpg"
+                alt="Peças decorativas coloridas"
                 fill
                 className="object-cover transition-transform duration-700 hover:scale-110"
                 sizes="(max-width: 1024px) 50vw, 25vw"
