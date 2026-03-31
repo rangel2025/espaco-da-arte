@@ -120,34 +120,6 @@ function HeroSection() {
                 style={{ background: "linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 40%)" }}
               />
               
-              {/* Badge "Desde 1999" MAIOR */}
-              <div
-                className="absolute bottom-8 left-8 flex items-center gap-5 px-6 py-5"
-                style={{
-                  background: "rgba(255,248,239,0.92)",
-                  backdropFilter: "blur(24px)",
-                  WebkitBackdropFilter: "blur(24px)",
-                  borderRadius: "2.5rem",
-                  boxShadow: "0 12px 32px rgba(138,72,83,0.15)",
-                }}
-              >
-                <div className="relative w-14 h-14">
-                  <Image
-                    src="/images/logotipo.jpg"
-                    alt="Logo"
-                    fill
-                    className="object-contain mix-blend-multiply"
-                  />
-                </div>
-                <div>
-                  <p className="font-label text-[11px] uppercase tracking-[0.2em] font-extrabold" style={{ color: "var(--color-primary)" }}>
-                    Desde 1999
-                  </p>
-                  <p className="font-headline italic text-lg font-bold" style={{ color: "var(--color-on-surface)" }}>
-                    Americana / SP
-                  </p>
-                </div>
-              </div>
             </div>
 
             {/* Card flutuante — Arte Terapia */}
