@@ -43,9 +43,9 @@ function HeroSection() {
             </span>
 
             {/* Logotipo Manuscrito */}
-            <div className="relative w-80 xl:w-[400px] h-32 md:h-40 -ml-4">
+            <div className="relative w-80 xl:w-[450px] h-32 md:h-48 -ml-6">
               <Image 
-                src="/images/logo-handwritten.jpg" 
+                src="/images/logo-handwritten.png" 
                 alt="Espaço da Arte" 
                 fill 
                 className="object-contain mix-blend-multiply" 
@@ -100,7 +100,7 @@ function HeroSection() {
 
             {/* Imagem principal */}
             <div
-              className="relative w-full max-w-md xl:max-w-lg overflow-hidden group"
+              className="relative w-full max-w-md xl:max-w-lg overflow-hidden group z-10"
               style={{
                 borderRadius: "4rem",
                 boxShadow: "0 60px 100px rgba(138,72,83,0.22)",
